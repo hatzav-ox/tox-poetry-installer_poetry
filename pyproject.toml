@@ -55,8 +55,6 @@ mypy = "^0.930"
 pre-commit = "^2.7.1"
 pre-commit-hooks = "^3.3.0"
 pylint = "^2.13.0"
-pytest = "^6.0.2"
-pytest-cov = "^2.10.1"
 reorder-python-imports = "^2.3.5"
 safety = "^2.2.0"
 toml = "^0.10.1"
@@ -67,6 +65,7 @@ types-toml = "^0.10.1"
 #
 # https://github.com/python-poetry/poetry-plugin-export/issues/176
 virtualenv = ">=20.15,<20.16"
+pytest-cov = "^2.12.1"
 
 [build-system]
 requires = ["poetry-core>=1.1.0"]
